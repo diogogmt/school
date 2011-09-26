@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TopWorks</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/arial.js"></script>
+<script type="text/javascript" src="js/cuf_run.js"></script>
+
+<style type="text/css">
+    #directions {
+        color: black;
+    }
+    
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><span>Web</span>Paths<small>finding your way in the web</small></a></h1>
+      </div>
+      <div class="menu_nav">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <div class="hbg"><img src="images/header_images.jpg" width="430" height="315" alt="" class="fl" />
+        <div class="info fl">
+          <h3>Connecting people <br />
+            Via the Web </h3>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+        
+      <div class="mainbar">
+          <img src="Route1.png" id="routeImage" width="668" height="500" />
+      </div>
+        
+      <div class="sidebar">
+        <div class="gadget">
+          <div class="search">
+            <form method="get" id="search" action="#">
+              <span>
+              <input type="text" value="Search..." name="s" id="s" />
+              <input name="searchsubmit" type="image" src="images/search.gif" value="Go" id="searchsubmit" class="btn"  />
+              </span>
+            </form>
+            <div class="clr"></div>
+          </div>
+        </div>
+        <div class="gadget">
+           
+            <form>
+                <select id="routes">
+                    <option value="1">Route 1</option>
+                    <option value="2">Route 2</option>
+                    <option value="3">Route 3</option>
+                </select>
+            </form>
+            
+
+            
+            <div id="directions">
+                
+            </div>
+
+        </div>
+        <div class="gadget">
+          
+        </div>
+        <div class="gadget">
+          
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+   
+  </div>
+  <div class="footer">
+    ass="clr"></div>
+    </div>
+  </div>
+</div>
+    
+    
+    <script type="text/javascript">
+       $(document).ready(function() {
+           var routes =[
+                  {
+                    image: 'Route1.png',
+                    description: 'Route 1 directions'
+                  },
+                  {
+                    image: 'Route2.png',
+                    description: 'Route 2 directions'
+                  },
+                  {
+                    image: 'Route3.png',
+                    description: 'Route 3 directions'
+                  }
+              ]; 
+              $('#directions').html(routes[0].description);
+              $('#routeImage').attr('src', routes[0].image);
+              
+          $('#routes').change(function() {
+//              alert($('#routes').val());
+              
+              
+              var routeNumber = $('#routes').val() - 1;
+              
+//              alert(routes[routeNumber].description);
+//              alert(routes[routeNumber].image);
+              $('#directions').html(routes[routeNumber].description);
+              $('#routeImage').attr('src', routes[routeNumber].image);
+//              alert($('#routeImage').attr('src'));
+              
+              
+            });
+        });
+        
+    </script>
+</body>
+</html>
