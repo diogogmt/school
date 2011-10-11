@@ -2,24 +2,21 @@
 	
 			<ul class="mega-container mega-grey">
 	
-				<li class="mega mega-current">
-					<a href="index2.html" class="mega-link">Dashboard</a>	
-				</li>
 						
 				<li class="mega">				
-					<a href="widgets.html" class="mega-link">Customers</a>			
+					<a href="../customer_management/customer_management.php" class="mega-link">Customers</a>			
 				</li>
 				
 				<li class="mega">				
-					<a href="widgets.html" class="mega-link">Jobs</a>			
+					<a href="../job_management/job_management.php" class="mega-link">Jobs</a>			
 				</li>
 				
 				<li class="mega">				
-					<a href="widgets.html" class="mega-link">Estimates</a>			
+					<a href="../estimate_management/estimate_management.php" class="mega-link">Estimates</a>			
 				</li>
 				
 				<li class="mega">				
-					<a href="widgets.html" class="mega-link">Media</a>			
+					<a href="../media_management/gallery.php" class="mega-link">Media</a>			
 				</li>							
 				
 			</ul>

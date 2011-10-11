@@ -51,59 +51,60 @@
 
 					
 					<a name="plugin"></a>
-					<h2>Customer Management</h2>
-					<a href='customer_details.php'>
-					<button class="btn">Add Customer</button>
-					</a>
+					<h2>Job Management</h2>
+					
 					<br />
 					<br />
 				
 				<table cellpadding="0" cellspacing="0" border="0" class="display" rel="datatable" id="example">
 					<thead>
 						<tr>
+							<th>Job ID</th>
+							<th>Customer</th>
 							<th>Name</th>
-							<th>Email</th>
-							<th>Phone</th>
-							<th>Jobs pending</th>
+							<th>Description</th>
+							<th>Creation date</th>
+							<th>Status</th>
 							<th>Edit</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr class="odd gradeX">
-							<td>Joe Doe</td>
-							<td>joe@doe.com</td>
-							<td>416 647-938</td>
-							<td class="center"> 4</td>
-							<td class="center"><a href='customer_details.php'>Edit</a></td>
+							<td>80031</td>	
+							<td><a href="../customer_management/customer_details.php">Joselito SemNocao</a></td>						
+							<td>Job 2</td>
+							<td>Replacement of old window</td>
+							<td class="center"> 3/7/2003</td>
+							<td class="center">Completed</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
+							
 						</tr>
 						<tr class="even gradeC">
-							<td>Pedo DiLara</td>
-							<td>pedo@dilara.com</td>
-							<td>416 647-938</td>
-							<td class="center">1</td>
-							<td class="center"><a href='customer_details.php'>Edit</a></td>
+							<td>66398</td>							
+							<td><a href="../customer_management/customer_details.php">Joe Doe</a></td>
+							<td>Job 2</td>
+							<td>Installation of kitchen door</td>
+							<td class="center"> 10/9/2007</td>
+							<td class="center">Completed</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						<tr class="odd gradeEdit">
-							<td>Trident</td>
-							<td>Internet
-								 Explorer 5.5</td>
-							<td>416 647-938</td>
-							<td class="center">0</td>
-							<td class="center"><a href='customer_details.php'>Edit</a></td>
+							<td>863407</td>						
+							<td><a href="../customer_management/customer_details.php">Pedo DiLara</a></td>
+							<td>Job 2</td>
+							<td>Replacement of all windows and doors</td>
+							<td class="center"> 1/1/2001</td>
+							<td class="center">Pending</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						<tr class="even gradeA">
-							<td>Salci Fu</td>
-							<td>salci@fu.com</td>
-							<td>416 647-938</td>
-							<td class="center">2</td>
-							<td class="center"><a href='customer_details.php'>Edit</a></td>
-						</tr>
-						<tr class="odd gradeA">
-							<td>Marie Doe</td>
-							<td>marie@doe.com</td>
-							<td>416 647-938</td>
-							<td class="center">0</td>
-							<td class="center"><a href='customer_detailst.php'>Edit</a></td>
+							<td>80031</td>		
+							<td><a href="../customer_management/customer_details.php">Joselito SemNocao</a></td>					
+							<td>Job 1</td>
+							<td>IBedroom windows</td>
+							<td class="center"> 7/4/2005</td>
+							<td class="center">Pending</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 					</tbody>
 				</table>

@@ -11,7 +11,6 @@
         <?php require_once('../../components/external_files.php'); ?>
 		
 		<style>
-			
 		</style>
 </head>
 
@@ -46,7 +45,7 @@
 	<div id="content" class="xfluid">
 		
 		<div class="portlet x12">
-			<div class="portlet-header"><h4>Tables</h4></div>
+			<div class="portlet-header"><h4>Customer Details</h4></div>
 			
 			<div class="portlet-content">
 				
@@ -55,52 +54,37 @@
 					<table>
 						<tr>
 							<td colspan="2" align="left">
-							<div class="field"><label for="fname">Customer ID </label> <input id="fname" name="fname" size="6" type="text" class="medium" /></div>
+							<div class="field">
+								<label for="fname">Customer ID </label> 0001
+								
+							</div>
+							
 							</td>
+
 						</tr>
 						<tr>
 							<td >
-							<div class="field"><label for="lname">First name </label> <input id="lname" name="lname" size="20" type="text" class="medium" /></div>
-							</td>
-							<td>
-							<div class="field"><label for="lname">Last name </label> <input id="lname" name="lname" size="20" type="text" class="medium" /></div>
-							</td>
-						</tr>
-						<tr>
-							<td>
-							<div class="field"><label for="lname">Email </label> <input id="lname" name="lname" size="20" type="text" class="medium" /></div>
-							</td>
-							<td>
-								<div class="field phone_field"><label for="telephone">Telephone</label> <input id="telephone" size="3" type="text" class="xsmall" /> - <input size="3" type="text" class="xsmall" /> - <input size="4" type="text" class="xsmall" />
+							<div class="field"><label for="lname">First name </label> <input id="lname" name="lname" size="20" type="text" class="medium" value='Joe'/></div>
+							<div class="field"><label for="lname">Last name </label> <input id="lname" name="lname" size="20" type="text" class="medium" value='Doe' /></div>
+				<button class="btn">Save</button>
 
-								<p class="field_help">(###) - ### - ####</p>
-				
-							</div>
 							</td>
-						</tr>
-						
-						<tr>
-							<td colspan="2">
-							<div class="field"><label for="address1">Address 1 </label> <input id="address1" size="40" type="text" class="large" /></div>
+							<td>
+							<div class="field"><label for="lname">Email </label> <input id="lname" name="lname" value='joe@doe.com' size="20" type="text" class="medium" /></div>
+							<div class="field phone_field"><label for="telephone">Telephone</label> <input id="telephone" value='416' size="3" type="text" class="xsmall" /> - <input size="3" value='647' type="text" class="xsmall" /> - <input size="4" value="9381" type="text" class="xsmall" />
+								<br />
+								<br />
+							<div class="field"><label for="address1">Address 1 </label> <input id="address1" value="Infinite Loop 1" size="40" type="text" class="large" /></div>
+
 							</td>
-						</tr>
-						
-						<tr>	
-							<td colspan="2">																
-							<br />
-							<div class="buttonrow">
-								<button class="btn">Save</button>
-							</div>
-							</td>
+
 						</tr>
 
 						</form>
 						</table>
+						
 
-<br /><br />
-<br /><br />
-				
-				
+				<br />
 				<br />
 				
 				<a name="basic"></a>
@@ -113,7 +97,8 @@
 							<th>Name</th>
 							<th>Description</th>
 							<th>Creation date</th>
-							<th>Status</th>							
+							<th>Status</th>
+							<th>Edit</th>								
 						</tr>
 					</thead>
 					<tbody>
@@ -123,6 +108,7 @@
 							<td>Replacement of old window</td>
 							<td class="center"> 3/7/2003</td>
 							<td class="center">Completed</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						<tr class="even gradeC">
 							<td>66398</td>							
@@ -130,6 +116,7 @@
 							<td>Installation of kitchen door</td>
 							<td class="center"> 10/9/2007</td>
 							<td class="center">Completed</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						<tr class="odd gradeA">
 							<td>863407</td>						
@@ -137,6 +124,7 @@
 							<td>Replacement of all windows and doors</td>
 							<td class="center"> 1/1/2001</td>
 							<td class="center">Pending</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						<tr class="even gradeA">
 							<td>80031</td>							
@@ -144,6 +132,7 @@
 							<td>IBedroom windows</td>
 							<td class="center"> 7/4/2005</td>
 							<td class="center">Pending</td>
+							<td class="center"><a href='../job_management/job_details.php'>Edit</a></td>
 						</tr>
 						</tbody>
 					</table>
