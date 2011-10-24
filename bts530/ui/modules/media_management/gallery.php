@@ -7,10 +7,9 @@
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<title>Sobol Inc</title>	
 	
-	<link rel="stylesheet" href="../../css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
-	<link rel="stylesheet" href="../../css/plugin.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
-	<link rel="stylesheet" href="../../css/custom.css" type="text/css" media="screen" title="no title" charset="utf-8" />		
-	
+	<!--Includes menu-->
+  <?php require_once('../../components/external_files.php'); ?>
+  
 	<style type="text/css" media="screen">
 		
 	</style>
@@ -22,22 +21,6 @@
 <div id="wrapper" class="clearfix">
 	
 	<div id="top">
-		<div id="header">
-			<h1><a href="index2.html">Sobol Inc</a></h1>
-			
-			<div id="info">
-				<h4>Welcome Archie</h4>
-				
-				<p>
-					Logged in as Admin
-					<br />
-					You have <a href="javascript:;">5 messages</a>
-				</p>
-				
-				<img src="../../images/avatar.jpg" alt="avatar" />
-			</div> <!-- #info -->
-					
-		</div> <!-- #header -->	
 		
 		
                 <!--Includes menu-->
@@ -59,225 +42,140 @@
 			
 			<div class="portlet-content">
 				
+					
+					<div class="field">
+						<label for="file_name">Search images </label>
+						<br /> 
+						<input id="file_name" name="file_name" size="30" type="text" value="" />
+				</div>
+					
+				<button class="btn">Search</button>
+				
+				
 				<ul class="gallery">
 						
 						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/rain_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						
 						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/crayons_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/rain_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/coins_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/crayons_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/coins_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/crayons_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/rain_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/coins_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
+							<b>Image Name</b>
+							<br />
+							<img alt="" src="../../images/crayons_large.jpg" width="150" height="150"/>
 							
 							<div class="actions">	
 								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
+								<a  class="btn btn-orange btn-small editImg" href="#editImage">Edit</a>
+								<a href="javascript:;" class="btn btn-grey btn-small delete deleteImage">Delete</a>
 							</div>
 						</li>
 						
 						
-						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/crayons_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/crayons_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/coins_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/coins_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
-						
-						<li>
-							<img alt="" src="../../images/rain_small.jpg"/>
-							
-							<div class="actions">	
-								<a  class="btn btn-orange btn-small" rel="facebox" href="../../images/rain_large.jpg">View</a>
-								<a href="javascript:;" class="btn btn-grey btn-small delete">Delete</a>
-							</div>
-						</li>
 						
 					</ul>
 
@@ -321,27 +219,59 @@
 
 	</div> <!-- #content -->
 	
-	<div id="footer">
+	
 		
-		<p>Copyright &copy; 2010 <a href="javascript:;">MadeByAmp</a>, all rights reserved.</p>
+		<div style="display: none;">
+			<div id="editImage" style="width:800px;height:800px;overflow:auto; text-align: center;">
+				<table>
+					<tr>
+						<td>
+						<input id="fname" name="lname" size="20" type="text" class="medium " value='Image name'/>
+						<br />
+						<img alt="" src="../../images/crayons_large.jpg"/>
+						<br />
+						<button class="btn" >Change Image</button>
+					</td>
+					<td>
+						<h3>Image tags:</h3>
+						<div class="field">
+							<label for="lname">Add Tag </label> 
+							<input id="fname" name="lname" size="20" type="text" class="medium " value='tag 5'/>
+						<button class="btn" id="actionBtn">Add</button>
+						<br />
+						<br />
+								tag 1 <a href="#">X</a>
+								<br />
+								tag 2 <a href="#">X</a>
+								<br />
+								tag 3 <a href="#">X</a>
+								<br />
+								tag 4 <a href="#">X</a>
+
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<br />
+						<br />
+						<br />
+						<button class="btn" id="actionBtn">Save Changes</button>
+					</td>
+				</tr>
+
+
+			</table>
+		</div>
+	</div>
+	
 		
-	</div> <!-- #footer -->
+	<!--Includes footer-->
+  <?php require_once('../../components/footer.php'); ?>
 	
 </div> <!-- #wrapper -->
 
-<script  type="text/javascript" src="../../js/jquery/jquery.1.4.2.min.js"></script>
-<script  type="text/javascript" src="../../js/slate/slate.js"></script>
-<script  type="text/javascript" src="../../js/slate/slate.portlet.js"></script>
-<script  type="text/javascript" src="../../js/plugin.js"></script>
 
-
-<script type="text/javascript" charset="utf-8">
-$(function () 
-{
-	slate.init ();
-	slate.portlet.init ();	
-});
-</script>
 	
 </body>
 

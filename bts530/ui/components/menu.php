@@ -8,11 +8,11 @@
 				</li>
 				
 				<li class="mega">				
-					<a href="../job_management/job_management.php" class="mega-link">Jobs</a>			
+					<a href="../job_management/job_list.php" class="mega-link">Jobs List</a>			
 				</li>
 				
 				<li class="mega">				
-					<a href="../estimate_management/estimate_management.php" class="mega-link">Estimates</a>			
+					<a href="../job_management/calendar.php" class="mega-link">Jobs Calendar</a>			
 				</li>
 				
 				<li class="mega">				

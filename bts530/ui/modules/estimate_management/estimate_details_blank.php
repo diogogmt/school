@@ -111,34 +111,6 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr class="odd gradeX">
-							<td><img src='door1.jpg' width="80" height="80"/></td>		
-							<td><a href='#existingItem' class='addingItem'>Item Title</a></td>				
-							<td>Pella all weather basement model 19 x 25 inches. 
-								Heavy duty glass quick install</td>
-							<td>3</td>
-							<td>$1,000.00</td>
-							<td>$3,000.00</td>
-							<td class="center"><a href='#'>Delete</a></td>
-						</tr>
-						<tr class="even gradeC">
-							<td><img src='door2.jpg' width="80" height="80"/></td>			
-							<td><a href='#existingItem' class='addingItem'>Item Title</a></td>									
-							<td>Old style double door</td>
-							<td>10</td>
-							<td>$5,000.00</td>
-							<td>$5000.00</td>
-							<td class="center"><a href='#'>Delete</a></td>
-						</tr>
-						<tr class="odd gradeA">
-							<td><img src='door3.jpg' width="80" height="80"/></td>		
-							<td><a href='#existingItem' class='addingItem'>Item Title</a></td>										
-							<td>Roman architecture with a little touch of ancients greeks</td>
-							<td>10</td>
-							<td>$1,500.00</td>
-							<td>$15,000.00</td>
-							<td class="center"><a href='#'>Delete</a></td>
-						</tr>
 						</tbody>
 					</table>
 					
@@ -150,12 +122,12 @@
 						<td width="500">
 							<div class="field">
 								<label for="lname">Sub Total </label> 
-								<input id="description" name="lname" size="30" type="text" class="medium notEditable" value='$10,000' readonly="true"/>
+								<input id="description" name="lname" size="30" type="text" class="medium notEditable" value='' readonly="true"/>
 							</div>
 
 							<div class="field">
 								<label for="lname">Final Total </label> 
-								<input id="title" name="lname" size="20" type="text" class="medium notEditable" value='$14,000' readonly="true"/>
+								<input id="title" name="lname" size="20" type="text" class="medium notEditable" value='' readonly="true"/>
 							</div>
 							
 						</td>
@@ -163,39 +135,6 @@
 					</tr>
 				</table>
 				
-				<div style="display: none;">
-					<div id="existingItem" style="width:1000px;height:600px;overflow:auto;">
-						<table cellpadding="0" cellspacing="0" border="0" class="display">
-							<thead>
-								<tr>
-									<th>Image</th>
-									<th>Title</th>
-									<th>Description</th>
-									<th>Quantity</th>
-									<th>Cost</th>
-									<th>Total</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="odd gradeX">
-									<td><img src='door1.jpg' width="80" height="80"/></td>		
-									<td><a href='#existingItem' class='addingItem'>Item Title</a></td>				
-									<td>Pella all weather basement model 19 x 25 inches. 
-										Heavy duty glass quick install</td>
-									<td>3</td>
-									<td>$1,000.00</td>
-									<td>$3,000.00</td>
-								</tr>
-							</tbody>
-						</table>
-						<button class="btn" id="">View Images</button>
-						<br />
-						Search Images<br />
-						<input id="searchImgs" name="searchImgs" size="25" type="text" class="medium" value='' />
-						<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-						<button class="btn" id="">Save</button>
-				</div>
-				</div>
 
 				
 				
